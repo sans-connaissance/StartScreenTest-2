@@ -10,9 +10,12 @@ import SpriteKit
 
 class MainMenu: SKScene {
     
-
+    var startButtonPressed = false
+    var startButton = Button(buttonTitle: "Start Game", buttonName: "startGame")
 
     override func didMove(to view: SKView) {
+        
+        addChild(startButton)
 
 
     }
