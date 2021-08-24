@@ -1,16 +1,15 @@
 //
-//  GameScene.swift
+//  LevelOne.swift
 //  StartScreenTest-2
 //
-//  Created by David Malicke on 8/22/21.
+//  Created by David Malicke on 8/23/21.
 //
 
+import UIKit
 import SpriteKit
-import GameplayKit
 
-class GameScene: SKScene {
+class LevelOne: SKScene {
     
-
     
     override func didMove(to view: SKView) {
         
@@ -51,3 +50,4 @@ class GameScene: SKScene {
         // Called before each frame is rendered
     }
 }
+
