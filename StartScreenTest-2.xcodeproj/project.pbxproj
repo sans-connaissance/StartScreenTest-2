@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		41B5EFCD26D32E1F009FFD86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5EFCC26D32E1F009FFD86 /* AppDelegate.swift */; };
-		41B5EFCF26D32E1F009FFD86 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 41B5EFCE26D32E1F009FFD86 /* GameScene.sks */; };
+		41B5EFCF26D32E1F009FFD86 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 41B5EFCE26D32E1F009FFD86 /* MainMenu.sks */; };
 		41B5EFD126D32E1F009FFD86 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 41B5EFD026D32E1F009FFD86 /* Actions.sks */; };
 		41B5EFD326D32E1F009FFD86 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5EFD226D32E1F009FFD86 /* GameScene.swift */; };
 		41B5EFD526D32E1F009FFD86 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5EFD426D32E1F009FFD86 /* GameViewController.swift */; };
 		41B5EFD826D32E1F009FFD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B5EFD626D32E1F009FFD86 /* Main.storyboard */; };
 		41B5EFDA26D32E21009FFD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B5EFD926D32E21009FFD86 /* Assets.xcassets */; };
+		41B5EFE226D47B0F009FFD86 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5EFE126D47B0F009FFD86 /* SceneManager.swift */; };
+		41B5EFE426D47D9D009FFD86 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5EFE326D47D9D009FFD86 /* MainMenu.swift */; };
+		41B5EFE626D47EFF009FFD86 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5EFE526D47EFF009FFD86 /* Extension.swift */; };
+		41B5EFE826D47F8B009FFD86 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5EFE726D47F8B009FFD86 /* Settings.swift */; };
+		41B5EFEA26D48012009FFD86 /* LevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B5EFE926D48012009FFD86 /* LevelOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41B5EFC926D32E1F009FFD86 /* StartScreenTest-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StartScreenTest-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B5EFCC26D32E1F009FFD86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41B5EFCE26D32E1F009FFD86 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		41B5EFCE26D32E1F009FFD86 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 		41B5EFD026D32E1F009FFD86 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		41B5EFD226D32E1F009FFD86 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		41B5EFD426D32E1F009FFD86 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		41B5EFD726D32E1F009FFD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41B5EFD926D32E21009FFD86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41B5EFDB26D32E21009FFD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B5EFE126D47B0F009FFD86 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		41B5EFE326D47D9D009FFD86 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		41B5EFE526D47EFF009FFD86 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		41B5EFE726D47F8B009FFD86 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		41B5EFE926D48012009FFD86 /* LevelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				41B5EFCC26D32E1F009FFD86 /* AppDelegate.swift */,
-				41B5EFCE26D32E1F009FFD86 /* GameScene.sks */,
+				41B5EFCE26D32E1F009FFD86 /* MainMenu.sks */,
 				41B5EFD026D32E1F009FFD86 /* Actions.sks */,
 				41B5EFD226D32E1F009FFD86 /* GameScene.swift */,
 				41B5EFD426D32E1F009FFD86 /* GameViewController.swift */,
 				41B5EFD626D32E1F009FFD86 /* Main.storyboard */,
 				41B5EFD926D32E21009FFD86 /* Assets.xcassets */,
 				41B5EFDB26D32E21009FFD86 /* Info.plist */,
+				41B5EFE126D47B0F009FFD86 /* SceneManager.swift */,
+				41B5EFE326D47D9D009FFD86 /* MainMenu.swift */,
+				41B5EFE526D47EFF009FFD86 /* Extension.swift */,
+				41B5EFE726D47F8B009FFD86 /* Settings.swift */,
+				41B5EFE926D48012009FFD86 /* LevelOne.swift */,
 			);
 			path = "StartScreenTest-2";
 			sourceTree = "<group>";
@@ -128,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B5EFD826D32E1F009FFD86 /* Main.storyboard in Resources */,
-				41B5EFCF26D32E1F009FFD86 /* GameScene.sks in Resources */,
+				41B5EFCF26D32E1F009FFD86 /* MainMenu.sks in Resources */,
 				41B5EFDA26D32E21009FFD86 /* Assets.xcassets in Resources */,
 				41B5EFD126D32E1F009FFD86 /* Actions.sks in Resources */,
 			);
@@ -141,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B5EFE426D47D9D009FFD86 /* MainMenu.swift in Sources */,
 				41B5EFD326D32E1F009FFD86 /* GameScene.swift in Sources */,
 				41B5EFD526D32E1F009FFD86 /* GameViewController.swift in Sources */,
+				41B5EFEA26D48012009FFD86 /* LevelOne.swift in Sources */,
+				41B5EFE626D47EFF009FFD86 /* Extension.swift in Sources */,
+				41B5EFE826D47F8B009FFD86 /* Settings.swift in Sources */,
+				41B5EFE226D47B0F009FFD86 /* SceneManager.swift in Sources */,
 				41B5EFCD26D32E1F009FFD86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
