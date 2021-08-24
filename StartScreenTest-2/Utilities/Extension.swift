@@ -14,3 +14,5 @@ struct ScreenSize {
   static let maxLength = max(ScreenSize.width, ScreenSize.heigth)
   static let minLength = min(ScreenSize.width, ScreenSize.heigth)
 }
+
+

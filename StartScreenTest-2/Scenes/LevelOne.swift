@@ -10,9 +10,11 @@ import SpriteKit
 
 class LevelOne: SKScene {
     
+    var youDidIt = Button(buttonTitle: "you did it", buttonName: "you did it")
+    
     
     override func didMove(to view: SKView) {
-        
+        addChild(youDidIt)
 
     }
     
